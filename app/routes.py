@@ -156,7 +156,7 @@ def send_message_to_recipient(message_text, recipient_id, page_id):
 @app.route('/index')
 def index():
   print("index")
-  return 'Hello, World!'
+  return '1343702219'
 
 @app.route('/webhook', methods=['GET', 'POST'])
 def webhook():
