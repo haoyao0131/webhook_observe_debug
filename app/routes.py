@@ -10,7 +10,7 @@ SEND_API_URL = 'https://graph.facebook.com/v5.0/me/messages?access_token=%s'\
   %PAGE_ACCESS_TOKEN
 
 HEADERS = {'content-type': 'application/json'}
-IG_ACC_TO_REPLY = '90010191751190'
+IG_ACC_TO_REPLY = '17841447086190741'
       
       
 def send_message(body):
